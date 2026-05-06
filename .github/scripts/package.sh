@@ -11,4 +11,4 @@ cp -r bin/Release/net8.0/linux-x64/publish/Test/* "${PACKAGE_PATH}"/"${PACKAGE_N
 
 cd ${PACKAGE_PATH}
 
-zip -r "${PACKAGE_NAME}".zip "${PACKAGE_NAME}"/
+zip -r "${PACKAGE_NAME}".zip "${PACKAGE_NAME}"
